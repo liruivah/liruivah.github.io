@@ -1,6 +1,5 @@
 html { 
-	background-color: #000;
-	background: url(../img/bg@2x.png) no-repeat center center fixed;
+	background-image: url("../img/1-bg.png")no-repeat center center fixed;;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
