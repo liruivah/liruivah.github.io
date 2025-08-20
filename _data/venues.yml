@@ -1,0 +1,31 @@
+"SRDS":
+  url: https://srds-conference.org/
+  color: "#00369f"
+
+"TDSC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858
+  color: "#009f36"
+
+"NetAI":
+  url: https://conferences.sigcomm.org/sigcomm/2020/workshop-netai.html
+  color: "#ff6b35"
+
+"INS":
+  url: https://www.sciencedirect.com/journal/information-sciences
+  color: "#8e44ad"
+
+"IWQoS":
+  url: https://iwqos2020.ieee-iwqos.org/
+  color: "#e74c3c"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#f39c12"
+
+"CLOUD":
+  url: https://conferences.computer.org/cloud/
+  color: "#3498db"
+
+"APSEC":
+  url: https://www.apsec2023.org/
+  color: "#e67e22"

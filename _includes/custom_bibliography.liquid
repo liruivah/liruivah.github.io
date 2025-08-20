@@ -1,0 +1,38 @@
+{% raw %}
+{% for entry in site.data.papers %}
+  {% if entry.selected %}
+    <div class="publication-item">
+      <h3 class="publication-title">{{ entry.title }}</h3>
+      <p class="publication-authors">
+        {% assign authors = entry.author | split: ' and ' %}
+        {% for author in authors %}
+          {% if author contains 'Li, Rui' %}
+            <strong>{{ author }}</strong>{% unless forloop.last %}, {% endunless %}
+          {% else %}
+            {{ author }}{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </p>
+      <p class="publication-venue">
+        <em>{{ entry.journal }}{% if entry.booktitle %}{{ entry.booktitle }}{% endif %}</em>
+        {% if entry.year %}({{ entry.year }}){% endif %}
+        {% if entry.acceptance_rate %}- Acceptance Rate: {{ entry.acceptance_rate }}{% endif %}
+      </p>
+      {% if entry.abstract %}
+        <p class="publication-abstract">{{ entry.abstract }}</p>
+      {% endif %}
+      <div class="publication-links">
+        {% if entry.doi %}
+          <a href="{{ entry.doi }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
+        {% endif %}
+        {% if entry.url %}
+          <a href="{{ entry.url }}" target="_blank" class="btn btn-sm btn-outline-primary">Link</a>
+        {% endif %}
+        {% if entry.pdf %}
+          <a href="{{ entry.pdf }}" target="_blank" class="btn btn-sm btn-outline-primary">PDF</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+{% endraw %}

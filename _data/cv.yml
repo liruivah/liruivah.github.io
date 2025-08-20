@@ -1,0 +1,149 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Rui Li
+    - name: Email
+      value: liruivah@gmail.com
+    - name: Languages
+      value: English, Chinese (Mandarin)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science
+      institution: Northeastern University, Boston, MA, US
+      year: 2022 - Present
+      description:
+        - High Performance Computing Lab
+        - Khoury College of Computer Science
+        - Advisors: Prof. Gene Cooperman and Prof. Devesh Tiwari
+        - Research: AIOps and Large-scale Systems
+    - title: Master of Science in Computer Science
+      institution: Tsinghua University, Beijing, China
+      year: 2016 - 2019
+      description:
+        - Department of Computer Science and Technology
+        - Advisors: Prof. Shu-Tao Xia and Prof. Xi Xiao
+        - Research: Network Traffic Classification
+    - title: Bachelor of Science in Computer Science
+      institution: Nankai University, Tianjin, China
+      year: 2012 - 2016
+      description:
+        - Computer Science and Technology
+        - GPA: Top 5%
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Bytedance Seed, Bellevue, WA
+      year: 2025 - Present
+      description:
+        - Research on detecting training stragglers in MoE and RL training
+        - Reduced cold-start time by 50% through system-level optimizations
+        - Experience with 10,000+ GPU clusters
+    - title: PhD Student
+      institution: Northeastern University, Boston, MA, US
+      year: 2022 - Present
+      description:
+        - High Performance Computing Lab
+        - Research on Serverless Computing and Large-scale LLM Training
+        - Checkpoint/Restore technologies for cold-start optimization
+    - title: Algorithm Engineer II
+      institution: Alibaba Cloud, Hangzhou, China
+      year: 2019 - 2021
+      description:
+        - Research on Automated Intelligent Healing
+        - Project Owner for Cloud-Scale Data Centers
+        - Machine Learning and AIOps Implementation
+    - title: Research Assistant
+      institution: Tsinghua University, Beijing, China
+      year: 2017 - 2019
+      description:
+        - Network Traffic Classification Research
+        - Deep Learning and Neural Networks
+        - Published multiple papers in top-tier venues
+
+- title: Research Projects
+  type: time_table
+  contents:
+    - title: Automated Intelligent Healing for Cloud-Scale Data Centers
+      year: 2019 - 2021
+      description: Research and engineering project at Alibaba Cloud
+    - title: Network Traffic Classification Using Deep Neural Networks
+      year: 2017 - 2019
+      description: Research project at Tsinghua University
+    - title: WeChat TOP STORIES Recommendation System Optimization
+      year: 2018
+      description: Collaborative project with Tencent WeChat
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - Best Newcomer Award of AIS, Alibaba Cloud
+    - year: 2019
+      items:
+        - Excellent Graduate in Beijing City (top 2%)
+        - Excellent Graduate of CS Department, Tsinghua University (top 10%)
+    - year: 2018
+      items:
+        - Second-Class Scholarship, Tsinghua University (top 5%)
+    - year: 2015
+      items:
+        - Honorable Mention, Mathematical Contest in Modeling (MCM)
+        - Excellent Student of Nankai University
+    - year: 2014
+      items:
+        - Gongneng Scholarship, Nankai University
+        - Second Prize, Tianjin Mathematical Modeling Contest
+    - year: 2013
+      items:
+        - Third-Class Scholarship, Nankai University (Top 5%)
+        - Honorable Mention, Mathematical Contest in Modeling (MCM)
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Serverless Computing
+      items:
+        - Checkpoint/Restore technologies
+        - Cold-start optimization
+        - Dependency sharing mechanisms
+    - title: Large-Scale LLM Training
+      items:
+        - Initialization bottleneck analysis
+        - Straggler detection in distributed training
+        - Performance optimization for GPU clusters
+    - title: AIOps and System Reliability
+      items:
+        - Machine Learning for System Maintenance
+        - Automated Failure Detection and Recovery
+        - Large-scale Infrastructure Management
+    - title: Network Traffic Classification
+      items:
+        - Deep Learning Approaches
+        - Real-time Network Analysis
+        - Byte-level Processing
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, C/C++, Java, SQL
+    - title: Machine Learning & Frameworks
+      items:
+        - PyTorch, Megatron-LM, CUDA, NCCL
+        - Checkpoint/Restore technologies (CRIU)
+    - title: Cloud Computing
+      items:
+        - AWS, Alibaba Cloud, Docker, Kubernetes
+    - title: Languages
+      items:
+        - Chinese (Native), English (Fluent), Japanese (JLPT N2)
+    - title: Tools & Frameworks
+      items:
+        - Git, Linux, Foundation CSS
