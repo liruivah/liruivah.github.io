@@ -9,7 +9,8 @@ profile:
   image: profile_new.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>370 WVH, Northeastern University</p>
+    <p>370 WVH </p>
+    <p>Northeastern University</p>
     <p>Boston, MA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
