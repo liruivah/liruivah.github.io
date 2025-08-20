@@ -17,21 +17,26 @@
       description:
         - High Performance Computing Lab
         - Khoury College of Computer Science
-        - Advisors: Prof. Gene Cooperman and Prof. Devesh Tiwari
-        - Research: AIOps and Large-scale Systems
+        - title: Advisors
+          contents: Prof. Gene Cooperman and Prof. Devesh Tiwari
+        - title: Research
+          contents: Serverless Computing
     - title: Master of Science in Computer Science
       institution: Tsinghua University, Beijing, China
       year: 2016 - 2019
       description:
         - Department of Computer Science and Technology
-        - Advisors: Prof. Shu-Tao Xia and Prof. Xi Xiao
-        - Research: Network Traffic Classification
+        - title: Advisors
+          contents: Prof. Shu-Tao Xia and Prof. Xi Xiao
+        - title: Research
+          contents: Network Traffic Classification
     - title: Bachelor of Science in Computer Science
       institution: Nankai University, Tianjin, China
       year: 2012 - 2016
       description:
         - Computer Science and Technology
-        - GPA: Top 5%
+        - title: GPA
+          contents: Top 5%
 
 - title: Experience
   type: time_table

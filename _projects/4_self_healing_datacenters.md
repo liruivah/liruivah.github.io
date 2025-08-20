@@ -63,3 +63,4 @@ AIHS demonstrates the potential of AIOps in production:
 <div class="caption">
     AIHS system architecture showing the machine learning pipeline for automated failure detection and repair in cloud-scale data centers.
 </div>
+
