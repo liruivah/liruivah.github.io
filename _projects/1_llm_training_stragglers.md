@@ -2,7 +2,6 @@
 layout: page
 title: LLM Training Stragglers
 description: Research on identifying and mitigating straggler effects in large-scale language model training
-img: assets/img/bootseer.jpg
 importance: 1
 category: systems-for-ai
 related_publications: false

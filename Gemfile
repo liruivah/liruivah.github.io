@@ -14,7 +14,7 @@ group :jekyll_plugins do
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
-    # gem 'jekyll-scholar'  # Removed for GitHub Pages compatibility
+    gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
@@ -31,7 +31,7 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
     gem 'faraday-retry'  # Required for Faraday v2.0+ compatibility
-    # gem 'observer'       # used by jekyll-scholar (removed)
+    gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     # gem 'terser'         # used by jekyll-terser
     # gem 'unicode_utils' -- should be already installed by jekyll
