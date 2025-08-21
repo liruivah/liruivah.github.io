@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /hobbies/
-title: Hobbies & Interests
+title: hobbies & interests
 description: Personal interests and activities outside of research
 nav: true
 nav_order: 6
